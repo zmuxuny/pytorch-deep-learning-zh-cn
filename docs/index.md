@@ -68,46 +68,46 @@
 
 **You:** Are a beginner in the field of machine learning or deep learning or AI and would like to learn PyTorch.
 
-**This course:** Teaches you PyTorch and many machine learning, deep learning and AI concepts in a hands-on, code-first way.
+**本课程：** 以实践为主、代码优先的方式教授PyTorch和许多机器学习、深度学习和AI概念。
 
-If you already have 1-year+ experience in machine learning, this course may help but it is specifically designed to be beginner-friendly.
+如果你已经在机器学习方面有1年以上的经验，这门课程可能会有帮助，但它专门设计为对初学者友好。
 
-### What are the prerequisites?
+### 先决条件是什么？
 
-1. 3-6 months coding Python.
-2. At least one beginner machine learning course (however this might be able to be skipped, resources are linked for many different topics).
-3. Experience using Jupyter Notebooks or Google Colab (though you can pick this up as we go along).
-4. A willingness to learn (most important).
+1. 3-6个月的Python编程经验。
+2. 至少一门初学者机器学习课程（不过这可能可以跳过，许多不同主题都有资源链接）。
+3. 使用Jupyter Notebook或Google Colab的经验（虽然你可以在学习过程中掌握）。
+4. 学习的意愿（最重要）。
 
-For 1 & 2, I'd recommend the [Zero to Mastery Data Science and Machine Learning Bootcamp](https://dbourke.link/ZTMMLcourse), it'll teach you the fundamentals of machine learning and Python (I'm biased though, I also teach that course).
+对于1和2，我推荐[Zero to Mastery数据科学和机器学习训练营](https://dbourke.link/ZTMMLcourse)，它会教你机器学习和Python的基础知识（不过我有偏见，我也教授那门课程）。
 
-### How is the course taught?
+### 课程是如何教授的？
 
-All of the course materials are available for free in an online book at [learnpytorch.io](https://learnpytorch.io). If you like to read, I'd recommend going through the resources there.
+所有课程材料都可以在[learnpytorch.io](https://learnpytorch.io)的在线书籍中免费获得。如果你喜欢阅读，我建议浏览那里的资源。
 
-If you prefer to learn via video, the course is also taught in apprenticeship-style format, meaning I write PyTorch code, you write PyTorch code.
+如果你更喜欢通过视频学习，课程也以学徒式风格教授，意思是我写PyTorch代码，你也写PyTorch代码。
 
-There's a reason the course motto's include *if in doubt, run the code* and *experiment, experiment, experiment!*.
+课程座右铭包括*有疑问时，运行代码*和*实验，实验，实验！*是有原因的。
 
-My whole goal is to help you to do one thing: learn machine learning by writing PyTorch code.
+我的全部目标是帮助你做一件事：通过编写PyTorch代码来学习机器学习。
 
-The code is all written via [Google Colab Notebooks](https://colab.research.google.com) (you could also use Jupyter Notebooks), an incredible free resource to experiment with machine learning.
+所有代码都通过[Google Colab Notebook](https://colab.research.google.com)编写（你也可以使用Jupyter Notebook），这是一个用于机器学习实验的令人难以置信的免费资源。
 
-### What will I get if I finish the course?
+### 如果我完成课程会得到什么？
 
-There's certificates and all that jazz if you go through the videos.
+如果你观看视频，会有证书和所有这些东西。
 
-But certificates are meh.
+但证书不重要。
 
-You can consider this course a machine learning momentum builder.
+你可以把这门课程视为机器学习动力构建器。
 
-By the end, you'll have written hundreds of lines of PyTorch code.
+到最后，你会写出数百行PyTorch代码。
 
-And will have been exposed to many of the most important concepts in machine learning.
+并且会接触到机器学习中许多最重要的概念。
 
-So when you go to build your own machine learning projects or inspect a public machine learning project made with PyTorch, it'll feel familiar and if it doesn't, at least you'll know where to look.
+所以当你去构建自己的机器学习项目或检查用PyTorch制作的公共机器学习项目时，会感觉很熟悉，如果不熟悉，至少你知道在哪里查找。
 
-### What will I build in the course?
+### 我将在课程中构建什么？
 
 We start with the barebone fundamentals of PyTorch and machine learning, so even if you're new to machine learning you'll be caught up to speed.
 

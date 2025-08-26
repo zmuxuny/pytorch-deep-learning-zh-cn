@@ -1,50 +1,50 @@
 [View Source Code](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/05_pytorch_going_modular.md) | [View Slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/05_pytorch_going_modular.pdf) 
 
-# 05. PyTorch Going Modular
+# 05. PyTorch模块化
 
-This section answers the question, "how do I turn my notebook code into Python scripts?"
+本节回答了这个问题："如何将我的notebook代码转换为Python脚本？"
 
-To do so, we're going to turn the most useful code cells in [notebook 04. PyTorch Custom Datasets](https://www.learnpytorch.io/04_pytorch_custom_datasets/) into a series of Python scripts saved to a directory called [`going_modular`](https://github.com/mrdbourke/pytorch-deep-learning/tree/main/going_modular).
+为此，我们将把[notebook 04. PyTorch自定义数据集](https://www.learnpytorch.io/04_pytorch_custom_datasets/)中最有用的代码单元转换为一系列Python脚本，保存到名为[`going_modular`](https://github.com/mrdbourke/pytorch-deep-learning/tree/main/going_modular)的目录中。
 
-## What is going modular?
+## 什么是模块化？
 
-Going modular involves turning notebook code (from a Jupyter Notebook or Google Colab notebook) into a series of different Python scripts that offer similar functionality.
+模块化涉及将notebook代码（来自Jupyter Notebook或Google Colab notebook）转换为一系列提供类似功能的不同Python脚本。
 
-For example, we could turn our notebook code from a series of cells into the following Python files:
+例如，我们可以将notebook代码从一系列单元转换为以下Python文件：
 
-* `data_setup.py` - a file to prepare and download data if needed.
-* `engine.py` - a file containing various training functions.
-* `model_builder.py` or `model.py` - a file to create a PyTorch model.
-* `train.py` - a file to leverage all other files and train a target PyTorch model.
-* `utils.py` - a file dedicated to helpful utility functions.
+* `data_setup.py` - 用于准备和下载数据（如果需要）的文件。
+* `engine.py` - 包含各种训练函数的文件。
+* `model_builder.py`或`model.py` - 用于创建PyTorch模型的文件。
+* `train.py` - 利用所有其他文件并训练目标PyTorch模型的文件。
+* `utils.py` - 专门用于有用实用函数的文件。
 
-> **Note:** The naming and layout of the above files will depend on your use case and code requirements. Python scripts are as general as individual notebook cells, meaning, you could create one for almost any kind of functionality.
+> **注意：** 上述文件的命名和布局将取决于你的用例和代码要求。Python脚本与单个notebook单元一样通用，这意味着你几乎可以为任何类型的功能创建一个脚本。
 
-## Why would you want to go modular?
+## 为什么要模块化？
 
-Notebooks are fantastic for iteratively exploring and running experiments quickly.
+Notebook非常适合迭代探索和快速运行实验。
 
-However, for larger scale projects you may find Python scripts more reproducible and easier to run.
+但是，对于更大规模的项目，你可能会发现Python脚本更可重现且更容易运行。
 
-Though this is a debated topic, as companies like [Netflix have shown how they use notebooks for production code](https://netflixtechblog.com/notebook-innovation-591ee3221233).
+尽管这是一个有争议的话题，因为像[Netflix这样的公司已经展示了他们如何将notebook用于生产代码](https://netflixtechblog.com/notebook-innovation-591ee3221233)。
 
-**Production code** is code that runs to offer a service to someone or something.
+**生产代码**是运行以向某人或某物提供服务的代码。
 
-For example, if you have an app running online that other people can access and use, the code running that app is considered **production code**.
+例如，如果你有一个在线运行的应用程序，其他人可以访问和使用，那么运行该应用程序的代码就被认为是**生产代码**。
 
-And libraries like fast.ai's [`nb-dev`](https://github.com/fastai/nbdev) (short for notebook development) enable you to write whole Python libraries (including documentation) with Jupyter Notebooks.
+而像fast.ai的[`nb-dev`](https://github.com/fastai/nbdev)（notebook development的缩写）这样的库使你能够用Jupyter Notebook编写整个Python库（包括文档）。
 
-### Pros and cons of notebooks vs Python scripts
+### Notebook与Python脚本的优缺点
 
-There's arguments for both sides.
+双方都有争论。
 
-But this list sums up a few of the main topics.
+但这个列表总结了一些主要话题。
 
-|               | **Pros**                                               | **Cons**                                     |
+|               | **优点**                                               | **缺点**                                     |
 | ------------- | ------------------------------------------------------ | -------------------------------------------- |
-| **Notebooks** | Easy to experiment/get started                         | Versioning can be hard                       |
-|               | Easy to share (e.g. a link to a Google Colab notebook) | Hard to use only specific parts              |
-|               | Very visual                                            | Text and graphics can get in the way of code |
+| **Notebook** | 易于实验/入门                         | 版本控制可能很困难                       |
+|               | 易于分享（例如Google Colab notebook的链接） | 难以只使用特定部分              |
+|               | 非常可视化                                            | 文本和图形可能会妨碍代码 |
 
 |                    | **Pros**                                                                            | **Cons**                                                                                  |
 | ------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |

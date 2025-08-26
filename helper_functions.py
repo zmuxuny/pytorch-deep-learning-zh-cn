@@ -1,7 +1,7 @@
 """
-A series of helper functions used throughout the course.
+本课程中使用的一系列辅助函数。
 
-If a function gets defined once and could be used over and over, it'll go in here.
+如果一个函数被定义一次并且可以反复使用，它就会放在这里。
 """
 import torch
 import matplotlib.pyplot as plt
@@ -16,35 +16,34 @@ from pathlib import Path
 
 import requests
 
-# Walk through an image classification directory and find out how many files (images)
-# are in each subdirectory.
+# 遍历图像分类目录，找出每个子目录中有多少文件（图像）
 import os
 
 def walk_through_dir(dir_path):
     """
-    Walks through dir_path returning its contents.
-    Args:
-    dir_path (str): target directory
+    遍历dir_path并返回其内容。
+    参数:
+    dir_path (str): 目标目录
 
-    Returns:
-    A print out of:
-      number of subdiretories in dir_path
-      number of images (files) in each subdirectory
-      name of each subdirectory
+    返回:
+    打印输出：
+      dir_path中子目录的数量
+      每个子目录中图像（文件）的数量
+      每个子目录的名称
     """
     for dirpath, dirnames, filenames in os.walk(dir_path):
         print(f"There are {len(dirnames)} directories and {len(filenames)} images in '{dirpath}'.")
 
 def plot_decision_boundary(model: torch.nn.Module, X: torch.Tensor, y: torch.Tensor):
-    """Plots decision boundaries of model predicting on X in comparison to y.
+    """绘制模型在X上预测的决策边界，与y进行比较。
 
-    Source - https://madewithml.com/courses/foundations/neural-networks/ (with modifications)
+    来源 - https://madewithml.com/courses/foundations/neural-networks/ (有修改)
     """
-    # Put everything to CPU (works better with NumPy + Matplotlib)
+    # 将所有内容放到CPU上（与NumPy + Matplotlib配合更好）
     model.to("cpu")
     X, y = X.to("cpu"), y.to("cpu")
 
-    # Setup prediction boundaries and grid
+    # 设置预测边界和网格
     x_min, x_max = X[:, 0].min() - 0.1, X[:, 0].max() + 0.1
     y_min, y_max = X[:, 1].min() - 0.1, X[:, 1].max() + 0.1
     xx, yy = np.meshgrid(np.linspace(x_min, x_max, 101), np.linspace(y_min, y_max, 101))

@@ -1,53 +1,53 @@
-# Learn PyTorch for Deep Learning: Zero to Mastery book
+# 学习PyTorch深度学习：从零到精通书籍
 
  <a href="https://learnpytorch.io">
         <img src="https://raw.githubusercontent.com/mrdbourke/pytorch-deep-learning/main/images/misc-pytorch-course-launch-cover-white-text-black-background.jpg" width=900 alt="pytorch deep learning by zero to mastery cover photo with different sections of the course">
 </a>
 
-Welcome to the second best place on the internet to learn PyTorch (the first being the [PyTorch documentation](https://pytorch.org/docs/stable/index.html)).
+欢迎来到互联网上学习PyTorch的第二好地方（第一名是[PyTorch文档](https://pytorch.org/docs/stable/index.html)）。
 
-This is the online book version of the [Learn PyTorch for Deep Learning: Zero to Mastery course](https://dbourke.link/ZTMPyTorch).
+这是[学习PyTorch深度学习：从零到精通课程](https://dbourke.link/ZTMPyTorch)的在线书籍版本。
 
-This course will teach you the foundations of machine learning and deep learning with PyTorch (a machine learning framework written in Python).
+这个课程将教你使用PyTorch（一个用Python编写的机器学习框架）的机器学习和深度学习基础。
 
-The course is video based. However, the videos are based on the contents of this online book.
+课程是基于视频的。但是，视频基于这本在线书籍的内容。
 
-For full code and resources see the [course GitHub](https://github.com/mrdbourke/pytorch-deep-learning).
+完整的代码和资源请参见[课程GitHub](https://github.com/mrdbourke/pytorch-deep-learning)。
 
-Otherwise, you can find more about the course below.
+否则，你可以在下面找到更多关于课程的信息。
 
-## Does this course cover PyTorch 2.0?
+## 本课程涵盖PyTorch 2.0吗？
 
-Yes. PyTorch 2.0 is an additive release to previous versions of PyTorch.
+是的。PyTorch 2.0是PyTorch以前版本的增量发布。
 
-This means it adds new features on top of the existing baseline features of PyTorch.
+这意味着它在PyTorch现有基线功能之上添加了新功能。
 
-This course focuses on the baseline features of PyTorch (e.g. you're a beginner wanting to get into deep learning/AI).
+本课程专注于PyTorch的基线功能（例如，你是想进入深度学习/AI的初学者）。
 
-Once you know the fundamentals of PyTorch, PyTorch 2.0 is a quick upgrade, there's a [tutorial on this website](https://www.learnpytorch.io/pytorch_2_intro/) which runs through the new features. 
+一旦你了解了PyTorch的基础知识，PyTorch 2.0是一个快速升级，在这个网站上有一个[教程](https://www.learnpytorch.io/pytorch_2_intro/)，介绍了新功能。
 
-## Status
+## 状态
 
-Course [launched on ZTM Academy](https://dbourke.link/ZTMPyTorch)!
+课程已在[ZTM学院启动](https://dbourke.link/ZTMPyTorch)！
 
-* Last update: April 16 2023
-* Videos are done for chapters: 00, 01, 02, 03, 04, 05, 06, 07, 08, 09 (all chapters!)
-* Currently working on: [PyTorch 2.0 Tutorial](https://www.learnpytorch.io/pytorch_2_intro/)
-* See progress on the course [GitHub Project](https://github.com/users/mrdbourke/projects/1/views/4).
+* 最后更新：2023年4月16日
+* 视频已完成的章节：00、01、02、03、04、05、06、07、08、09（所有章节！）
+* 目前正在工作：[PyTorch 2.0教程](https://www.learnpytorch.io/pytorch_2_intro/)
+* 查看课程[GitHub项目](https://github.com/users/mrdbourke/projects/1/views/4)的进度。
 
-**Get updates:** Follow the [`pytorch-deep-learning`](https://github.com/mrdbourke/pytorch-deep-learning#log) repo log or [sign up for emails](https://www.mrdbourke.com/newsletter/).
+**获取更新：** 关注[`pytorch-deep-learning`](https://github.com/mrdbourke/pytorch-deep-learning#log)仓库日志或[注册邮件](https://www.mrdbourke.com/newsletter/)。
 
-## Course materials/outline
+## 课程材料/大纲
 
-* 💻 **Code on GitHub:** All of course materials are available open-source [on GitHub](https://github.com/mrdbourke/pytorch-deep-learning).
-* 🎥 **First five sections on YouTube:** Learn Pytorch in a day by watching the [first 25-hours of material](https://youtu.be/Z_ikDlimN6A).
-* 🔬 **Course focus:** code, code, code, experiment, experiment, experiment.
-* 🏃‍♂️ **Teaching style:** [https://sive.rs/kimo](https://sive.rs/kimo).
-* 🤔 **Ask a question:** See the course [GitHub Discussions page](https://github.com/mrdbourke/pytorch-deep-learning/discussions) for existing questions/ask your own.
+* 💻 **GitHub上的代码：** 所有课程材料都在[GitHub](https://github.com/mrdbourke/pytorch-deep-learning)上开源提供。
+* 🎥 **YouTube上的前五个章节：** 通过观看[前25小时的材料](https://youtu.be/Z_ikDlimN6A)在一天内学会PyTorch。
+* 🔬 **课程重点：** 代码，代码，代码，实验，实验，实验。
+* 🏃‍♂️ **教学风格：** [https://sive.rs/kimo](https://sive.rs/kimo)。
+* 🤔 **提问：** 查看课程[GitHub讨论页面](https://github.com/mrdbourke/pytorch-deep-learning/discussions)了解现有问题/提出自己的问题。
 
-| **Section** | **What does it cover?** | **Exercises & Extra-curriculum** | **Slides** |
+| **章节** | **涵盖内容** | **练习与额外课程** | **幻灯片** |
 | ----- | ----- | ----- | ----- |
-| [00 - PyTorch Fundamentals](https://www.learnpytorch.io/00_pytorch_fundamentals/) | Many fundamental PyTorch operations used for deep learning and neural networks. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/00_pytorch_fundamentals/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/00_pytorch_and_deep_learning_fundamentals.pdf) |
+| [00 - PyTorch基础](https://www.learnpytorch.io/00_pytorch_fundamentals/) | 深度学习和神经网络中使用的许多基础PyTorch操作。 | [前往练习与额外课程](https://www.learnpytorch.io/00_pytorch_fundamentals/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/00_pytorch_and_deep_learning_fundamentals.pdf) |
 | [01 - PyTorch Workflow](https://www.learnpytorch.io/01_pytorch_workflow/) | Provides an outline for approaching deep learning problems and building neural networks with PyTorch. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/01_pytorch_workflow/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/01_pytorch_workflow.pdf) |
 | [02 - PyTorch Neural Network Classification](https://www.learnpytorch.io/02_pytorch_classification/) | Uses the PyTorch workflow from 01 to go through a neural network classification problem. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/02_pytorch_classification/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/02_pytorch_classification.pdf) |
 | [03 - PyTorch Computer Vision](https://www.learnpytorch.io/03_pytorch_computer_vision/) | Let's see how PyTorch can be used for computer vision problems using the same workflow from 01 & 02. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/03_pytorch_computer_vision/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/03_pytorch_computer_vision.pdf) |

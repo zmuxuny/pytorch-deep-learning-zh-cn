@@ -1,16 +1,16 @@
-# PyTorch Extra Resources
+# PyTorch额外资源
 
 Despite the full Zero to Mastery PyTorch course being over 40 hours, you’ll likely finish being excited to learn more.
 
-After all, the course is a PyTorch momentum builder.
+毕竟，这个课程是一个PyTorch动力构建器。
 
-The following resources are collected to extend the course.
+以下资源被收集用来扩展课程。
 
 A warning though: there’s a lot here.
 
-Best to choose 1 or 2 resources from each section (or less) to explore more. And put the rest in your bag for later. 
+最好从每个部分选择1或2个资源（或更少）来进一步探索。把其余的放在你的包里以备后用。 
 
-Which one's the best? 
+哪个最好？ 
 
 Well, if they’ve made it on this list, you can consider them a quality resource.
 

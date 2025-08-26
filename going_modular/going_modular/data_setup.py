@@ -1,6 +1,5 @@
 """
-Contains functionality for creating PyTorch DataLoaders for 
-image classification data.
+包含为图像分类数据创建PyTorch DataLoader的功能。
 """
 import os
 
@@ -16,22 +15,21 @@ def create_dataloaders(
     batch_size: int, 
     num_workers: int=NUM_WORKERS
 ):
-  """Creates training and testing DataLoaders.
+  """创建训练和测试DataLoader。
 
-  Takes in a training directory and testing directory path and turns
-  them into PyTorch Datasets and then into PyTorch DataLoaders.
+  接受训练目录和测试目录路径，将它们转换为PyTorch数据集，然后转换为PyTorch DataLoader。
 
-  Args:
-    train_dir: Path to training directory.
-    test_dir: Path to testing directory.
-    transform: torchvision transforms to perform on training and testing data.
-    batch_size: Number of samples per batch in each of the DataLoaders.
-    num_workers: An integer for number of workers per DataLoader.
+  参数:
+    train_dir: 训练目录的路径。
+    test_dir: 测试目录的路径。
+    transform: 对训练和测试数据执行的torchvision变换。
+    batch_size: 每个DataLoader中每批次的样本数量。
+    num_workers: 每个DataLoader的工作进程数量的整数。
 
-  Returns:
-    A tuple of (train_dataloader, test_dataloader, class_names).
-    Where class_names is a list of the target classes.
-    Example usage:
+  返回:
+    (train_dataloader, test_dataloader, class_names)的元组。
+    其中class_names是目标类别的列表。
+    使用示例:
       train_dataloader, test_dataloader, class_names = \
         = create_dataloaders(train_dir=path/to/train_dir,
                              test_dir=path/to/test_dir,
@@ -39,11 +37,11 @@ def create_dataloaders(
                              batch_size=32,
                              num_workers=4)
   """
-  # Use ImageFolder to create dataset(s)
+  # 使用ImageFolder创建数据集
   train_data = datasets.ImageFolder(train_dir, transform=transform)
   test_data = datasets.ImageFolder(test_dir, transform=transform)
 
-  # Get class names
+  # 获取类别名称
   class_names = train_data.classes
 
   # Turn images into data loaders

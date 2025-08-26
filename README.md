@@ -1,8 +1,8 @@
-# Learn PyTorch for Deep Learning
+# 学习PyTorch深度学习
 
-Welcome to the [Zero to Mastery Learn PyTorch for Deep Learning course](https://dbourke.link/ZTMPyTorch), the second best place to learn PyTorch on the internet (the first being the [PyTorch documentation](https://pytorch.org/docs/stable/index.html)).
+欢迎来到[Zero to Mastery PyTorch深度学习课程](https://dbourke.link/ZTMPyTorch)，这是互联网上学习PyTorch的第二好地方（第一名是[PyTorch官方文档](https://pytorch.org/docs/stable/index.html)）。
 
-* **Update April 2023:** New [tutorial for PyTorch 2.0](https://www.learnpytorch.io/pytorch_2_intro/) is live! And because PyTorch 2.0 is an additive (new features) and backward-compatible release, all previous course materials will *still* work with PyTorch 2.0.
+* **2023年4月更新：** 全新的[PyTorch 2.0教程](https://www.learnpytorch.io/pytorch_2_intro/)已上线！由于PyTorch 2.0是增量式（新功能）和向后兼容的版本，之前的所有课程材料在PyTorch 2.0中*仍然*可以正常工作。
 
 <div align="center">
     <a href="https://learnpytorch.io">
@@ -10,100 +10,100 @@ Welcome to the [Zero to Mastery Learn PyTorch for Deep Learning course](https://
     </a>
 </div>
 
-## Contents of this page
+## 页面内容
 
-* [Course materials/outline](https://github.com/mrdbourke/pytorch-deep-learning#course-materialsoutline)
-* [About this course](https://github.com/mrdbourke/pytorch-deep-learning#about-this-course)
-* [Status](https://github.com/mrdbourke/pytorch-deep-learning#status) (the progress of the course creation)
-* [Log](https://github.com/mrdbourke/pytorch-deep-learning#log) (a log of the course material creation process)
+* [课程材料/大纲](https://github.com/mrdbourke/pytorch-deep-learning#course-materialsoutline)
+* [关于本课程](https://github.com/mrdbourke/pytorch-deep-learning#about-this-course)
+* [状态](https://github.com/mrdbourke/pytorch-deep-learning#status) (课程创建进度)
+* [日志](https://github.com/mrdbourke/pytorch-deep-learning#log) (课程材料创建过程日志)
 
-## Course materials/outline
+## 课程材料/大纲
 
-* 📖 **Online book version:** All of course materials are available in a readable online book at [learnpytorch.io](https://learnpytorch.io).
-* 🎥 **First five sections on YouTube:** Learn Pytorch in a day by watching the [first 25-hours of material](https://youtu.be/Z_ikDlimN6A).
-* 🔬 **Course focus:** code, code, code, experiment, experiment, experiment.
-* 🏃‍♂️ **Teaching style:** [https://sive.rs/kimo](https://sive.rs/kimo).
-* 🤔 **Ask a question:** See the [GitHub Discussions page](https://github.com/mrdbourke/pytorch-deep-learning/discussions) for existing questions/ask your own.
+* 📖 **在线书籍版本：** 所有课程材料都可以在[learnpytorch.io](https://learnpytorch.io)上以可读的在线书籍形式获取。
+* 🎥 **YouTube前五节：** 通过观看[前25小时的材料](https://youtu.be/Z_ikDlimN6A)在一天内学会PyTorch。
+* 🔬 **课程重点：** 代码，代码，代码，实验，实验，实验。
+* 🏃‍♂️ **教学风格：** [https://sive.rs/kimo](https://sive.rs/kimo)。
+* 🤔 **提问：** 查看[GitHub讨论页面](https://github.com/mrdbourke/pytorch-deep-learning/discussions)了解现有问题/提出自己的问题。
 
-| **Section** | **What does it cover?** | **Exercises & Extra-curriculum** | **Slides** |
+| **章节** | **涵盖内容** | **练习与额外课程** | **幻灯片** |
 | ----- | ----- | ----- | ----- |
-| [00 - PyTorch Fundamentals](https://www.learnpytorch.io/00_pytorch_fundamentals/) | Many fundamental PyTorch operations used for deep learning and neural networks. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/00_pytorch_fundamentals/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/00_pytorch_and_deep_learning_fundamentals.pdf) |
-| [01 - PyTorch Workflow](https://www.learnpytorch.io/01_pytorch_workflow/) | Provides an outline for approaching deep learning problems and building neural networks with PyTorch. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/01_pytorch_workflow/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/01_pytorch_workflow.pdf) |
-| [02 - PyTorch Neural Network Classification](https://www.learnpytorch.io/02_pytorch_classification/) | Uses the PyTorch workflow from 01 to go through a neural network classification problem. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/02_pytorch_classification/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/02_pytorch_classification.pdf) |
-| [03 - PyTorch Computer Vision](https://www.learnpytorch.io/03_pytorch_computer_vision/) | Let's see how PyTorch can be used for computer vision problems using the same workflow from 01 & 02. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/03_pytorch_computer_vision/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/03_pytorch_computer_vision.pdf) |
-| [04 - PyTorch Custom Datasets](https://www.learnpytorch.io/04_pytorch_custom_datasets/) | How do you load a custom dataset into PyTorch? Also we'll be laying the foundations in this notebook for our modular code (covered in 05). | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/04_pytorch_custom_datasets/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/04_pytorch_custom_datasets.pdf) |
-| [05 - PyTorch Going Modular](https://www.learnpytorch.io/05_pytorch_going_modular/) | PyTorch is designed to be modular, let's turn what we've created into a series of Python scripts (this is how you'll often find PyTorch code in the wild). | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/05_pytorch_going_modular/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/05_pytorch_going_modular.pdf) |
-| [06 - PyTorch Transfer Learning](https://www.learnpytorch.io/06_pytorch_transfer_learning/) | Let's take a well performing pre-trained model and adjust it to one of our own problems. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/06_pytorch_transfer_learning/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/06_pytorch_transfer_learning.pdf) |
-| [07 - Milestone Project 1: PyTorch Experiment Tracking](https://www.learnpytorch.io/07_pytorch_experiment_tracking/) | We've built a bunch of models... wouldn't it be good to track how they're all going? | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/07_pytorch_experiment_tracking/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/07_pytorch_experiment_tracking.pdf) |
-| [08 - Milestone Project 2: PyTorch Paper Replicating](https://www.learnpytorch.io/08_pytorch_paper_replicating/) | PyTorch is the most popular deep learning framework for machine learning research, let's see why by replicating a machine learning paper. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/08_pytorch_paper_replicating/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/08_pytorch_paper_replicating.pdf) |
-| [09 - Milestone Project 3: Model Deployment](https://www.learnpytorch.io/09_pytorch_model_deployment/) | So we've built a working PyTorch model... how do we get it in the hands of others? Hint: deploy it to the internet. | [Go to exercises & extra-curriculum](https://www.learnpytorch.io/09_pytorch_model_deployment/#exercises) | [Go to slides](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/09_pytorch_model_deployment.pdf) |
-| [PyTorch Extra Resources](https://www.learnpytorch.io/pytorch_extra_resources/) | This course covers a large amount of PyTorch and deep learning but the field of machine learning is vast, inside here you'll find recommended books and resources for: PyTorch and deep learning, ML engineering, NLP (natural language processing), time series data, where to find datasets and more. | - | - |
-| [PyTorch Cheatsheet](https://www.learnpytorch.io/pytorch_cheatsheet/) | A very quick overview of some of the main features of PyTorch plus links to various resources where more can be found in the course and in the PyTorch documentation. | - | - |
-| [A Quick PyTorch 2.0 Tutorial](https://www.learnpytorch.io/pytorch_2_intro/) | A fasssssst introduction to PyTorch 2.0, what's new and how to get started along with resources to learn more. | - | - |
+| [00 - PyTorch基础](https://www.learnpytorch.io/00_pytorch_fundamentals/) | 深度学习和神经网络中使用的许多基础PyTorch操作。 | [前往练习与额外课程](https://www.learnpytorch.io/00_pytorch_fundamentals/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/00_pytorch_and_deep_learning_fundamentals.pdf) |
+| [01 - PyTorch工作流程](https://www.learnpytorch.io/01_pytorch_workflow/) | 提供解决深度学习问题和使用PyTorch构建神经网络的方法大纲。 | [前往练习与额外课程](https://www.learnpytorch.io/01_pytorch_workflow/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/01_pytorch_workflow.pdf) |
+| [02 - PyTorch神经网络分类](https://www.learnpytorch.io/02_pytorch_classification/) | 使用01中的PyTorch工作流程来解决神经网络分类问题。 | [前往练习与额外课程](https://www.learnpytorch.io/02_pytorch_classification/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/02_pytorch_classification.pdf) |
+| [03 - PyTorch计算机视觉](https://www.learnpytorch.io/03_pytorch_computer_vision/) | 让我们看看如何使用01和02中相同的工作流程将PyTorch用于计算机视觉问题。 | [前往练习与额外课程](https://www.learnpytorch.io/03_pytorch_computer_vision/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/03_pytorch_computer_vision.pdf) |
+| [04 - PyTorch自定义数据集](https://www.learnpytorch.io/04_pytorch_custom_datasets/) | 如何将自定义数据集加载到PyTorch中？我们还将在这个notebook中为我们的模块化代码奠定基础（在05中介绍）。 | [前往练习与额外课程](https://www.learnpytorch.io/04_pytorch_custom_datasets/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/04_pytorch_custom_datasets.pdf) |
+| [05 - PyTorch模块化](https://www.learnpytorch.io/05_pytorch_going_modular/) | PyTorch被设计为模块化的，让我们把我们创建的内容转换成一系列Python脚本（这是你经常在实际项目中找到PyTorch代码的方式）。 | [前往练习与额外课程](https://www.learnpytorch.io/05_pytorch_going_modular/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/05_pytorch_going_modular.pdf) |
+| [06 - PyTorch迁移学习](https://www.learnpytorch.io/06_pytorch_transfer_learning/) | 让我们采用一个性能良好的预训练模型，并将其调整为我们自己的问题。 | [前往练习与额外课程](https://www.learnpytorch.io/06_pytorch_transfer_learning/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/06_pytorch_transfer_learning.pdf) |
+| [07 - 里程碑项目1：PyTorch实验跟踪](https://www.learnpytorch.io/07_pytorch_experiment_tracking/) | 我们已经构建了一堆模型...跟踪它们的进展情况不是很好吗？ | [前往练习与额外课程](https://www.learnpytorch.io/07_pytorch_experiment_tracking/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/07_pytorch_experiment_tracking.pdf) |
+| [08 - 里程碑项目2：PyTorch论文复现](https://www.learnpytorch.io/08_pytorch_paper_replicating/) | PyTorch是机器学习研究中最受欢迎的深度学习框架，让我们通过复现一篇机器学习论文来看看为什么。 | [前往练习与额外课程](https://www.learnpytorch.io/08_pytorch_paper_replicating/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/08_pytorch_paper_replicating.pdf) |
+| [09 - 里程碑项目3：模型部署](https://www.learnpytorch.io/09_pytorch_model_deployment/) | 所以我们已经构建了一个可工作的PyTorch模型...我们如何让其他人使用它？提示：将其部署到互联网上。 | [前往练习与额外课程](https://www.learnpytorch.io/09_pytorch_model_deployment/#exercises) | [前往幻灯片](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/slides/09_pytorch_model_deployment.pdf) |
+| [PyTorch额外资源](https://www.learnpytorch.io/pytorch_extra_resources/) | 本课程涵盖了大量的PyTorch和深度学习内容，但机器学习领域非常广阔，在这里你会找到推荐的书籍和资源：PyTorch和深度学习、ML工程、NLP（自然语言处理）、时间序列数据、在哪里找到数据集等等。 | - | - |
+| [PyTorch速查表](https://www.learnpytorch.io/pytorch_cheatsheet/) | PyTorch一些主要功能的快速概览，以及指向课程和PyTorch文档中更多资源的链接。 | - | - |
+| [PyTorch 2.0快速教程](https://www.learnpytorch.io/pytorch_2_intro/) | PyTorch 2.0的快速介绍，新功能以及如何开始，还有学习更多内容的资源。 | - | - |
 
-## Status
+## 状态
 
-All materials completed and videos published on Zero to Mastery!
+所有材料已完成，视频已在Zero to Mastery发布！
 
-See the project page for work-in-progress board - https://github.com/users/mrdbourke/projects/1 
+查看项目页面了解进行中的工作板 - https://github.com/users/mrdbourke/projects/1 
 
-* **Total video count:** 321
-* **Done skeleton code for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
-* **Done annotations (text) for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
-* **Done images for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
-* **Done keynotes for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
-* **Done exercises and solutions for:** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
+* **总视频数量：** 321
+* **已完成框架代码：** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
+* **已完成注释（文本）：** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
+* **已完成图片：** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
+* **已完成演示文稿：** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
+* **已完成练习和解决方案：** 00, 01, 02, 03, 04, 05, 06, 07, 08, 09
 
-See the [log](https://github.com/mrdbourke/pytorch-deep-learning#log) for almost daily updates.
+查看[日志](https://github.com/mrdbourke/pytorch-deep-learning#log)了解几乎每日的更新。
 
-## About this course
+## 关于本课程
 
-### Who is this course for?
+### 这门课程适合谁？
 
-**You:** Are a beginner in the field of machine learning or deep learning and would like to learn PyTorch.
+**你：** 是机器学习或深度学习领域的初学者，想要学习PyTorch。
 
-**This course:** Teaches you PyTorch and many machine learning concepts in a hands-on, code-first way.
+**本课程：** 以实践为主、代码优先的方式教授PyTorch和许多机器学习概念。
 
-If you already have 1-year+ experience in machine learning, this course may help but it is specifically designed to be beginner-friendly.
+如果你已经在机器学习方面有1年以上的经验，这门课程可能会有帮助，但它专门设计为对初学者友好。
 
-### What are the prerequisites?
+### 先决条件是什么？
 
-1. 3-6 months coding Python.
-2. At least one beginner machine learning course (however this might be able to be skipped, resources are linked for many different topics).
-3. Experience using Jupyter Notebooks or Google Colab (though you can pick this up as we go along).
-4. A willingness to learn (most important).
+1. 3-6个月的Python编程经验。
+2. 至少一门初学者机器学习课程（不过这可能可以跳过，许多不同主题都有资源链接）。
+3. 使用Jupyter Notebook或Google Colab的经验（虽然你可以在学习过程中掌握）。
+4. 学习的意愿（最重要）。
 
-For 1 & 2, I'd recommend the [Zero to Mastery Data Science and Machine Learning Bootcamp](https://dbourke.link/ZTMMLcourse), it'll teach you the fundamentals of machine learning and Python (I'm biased though, I also teach that course).
+对于1和2，我推荐[Zero to Mastery数据科学和机器学习训练营](https://dbourke.link/ZTMMLcourse)，它会教你机器学习和Python的基础知识（不过我有偏见，我也教授那门课程）。
 
-### How is the course taught?
+### 课程是如何教授的？
 
-All of the course materials are available for free in an online book at [learnpytorch.io](https://learnpytorch.io). If you like to read, I'd recommend going through the resources there.
+所有课程材料都可以在[learnpytorch.io](https://learnpytorch.io)的在线书籍中免费获得。如果你喜欢阅读，我建议浏览那里的资源。
 
-If you prefer to learn via video, the course is also taught in apprenticeship-style format, meaning I write PyTorch code, you write PyTorch code.
+如果你更喜欢通过视频学习，课程也以学徒式风格教授，意思是我写PyTorch代码，你也写PyTorch代码。
 
-There's a reason the course motto's include *if in doubt, run the code* and *experiment, experiment, experiment!*.
+课程座右铭包括*有疑问时，运行代码*和*实验，实验，实验！*是有原因的。
 
-My whole goal is to help you to do one thing: learn machine learning by writing PyTorch code.
+我的全部目标是帮助你做一件事：通过编写PyTorch代码来学习机器学习。
 
-The code is all written via [Google Colab Notebooks](https://colab.research.google.com) (you could also use Jupyter Notebooks), an incredible free resource to experiment with machine learning.
+所有代码都通过[Google Colab Notebook](https://colab.research.google.com)编写（你也可以使用Jupyter Notebook），这是一个用于机器学习实验的令人难以置信的免费资源。
 
-### What will I get if I finish the course?
+### 如果我完成课程会得到什么？
 
-There's certificates and all that jazz if you go through the videos.
+如果你观看视频，会有证书和所有这些东西。
 
-But certificates are meh.
+但证书不重要。
 
-You can consider this course a machine learning momentum builder.
+你可以把这门课程视为机器学习动力构建器。
 
-By the end, you'll have written hundreds of lines of PyTorch code.
+到最后，你会写出数百行PyTorch代码。
 
-And will have been exposed to many of the most important concepts in machine learning.
+并且会接触到机器学习中许多最重要的概念。
 
-So when you go to build your own machine learning projects or inspect a public machine learning project made with PyTorch, it'll feel familiar and if it doesn't, at least you'll know where to look.
+所以当你去构建自己的机器学习项目或检查用PyTorch制作的公共机器学习项目时，会感觉很熟悉，如果不熟悉，至少你知道在哪里查找。
 
-### What will I build in the course?
+### 我将在课程中构建什么？
 
-We start with the barebone fundamentals of PyTorch and machine learning, so even if you're new to machine learning you'll be caught up to speed.
+我们从PyTorch和机器学习的基础知识开始，所以即使你是机器学习新手，也会跟上进度。
 
 Then we’ll explore more advanced areas including PyTorch neural network classification, PyTorch workflows, computer vision, custom datasets, experiment tracking, model deployment, and my personal favourite: transfer learning, a powerful technique for taking what one machine learning model has learned on another problem and applying it to your own!
 

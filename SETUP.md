@@ -51,48 +51,48 @@ Google Colab的缺点是：
 
 ![open a course notebook in Google Colab via open in Colab button](https://raw.githubusercontent.com/mrdbourke/pytorch-deep-learning/main/images/setup-open-in-colab-cropped.gif)
 
-If you'd like to make a copy of the notebook and store it on your Google Drive, you can press the "Copy to Drive" button.
+如果你想复制notebook并将其存储在Google Drive上，可以按"Copy to Drive"按钮。
 
-### Opening a notebook in Google Colab with a link
+### 通过链接在Google Colab中打开notebook
 
-You can also enter any notebook link from GitHub directly in Google Colab and get the same result.
+你还可以直接在Google Colab中输入GitHub的任何notebook链接并获得相同的结果。
 
 ![open a course notebook in Google Colab via GitHub link](https://raw.githubusercontent.com/mrdbourke/pytorch-deep-learning/main/images/setup-open-notebook-in-colab-via-link.png)
 
-Doing this will give you a runable notebook right in Google Colab. 
+这样做会在Google Colab中为你提供一个可运行的notebook。
 
-Though this should only be used for testing purposes, as when going through the course, I highly recommend you **write the code yourself**, rather than running existing code.
+不过这应该只用于测试目的，因为在学习课程时，我强烈建议你**自己编写代码**，而不是运行现有代码。
 
-### Getting acess to a GPU in Google Colab
+### 在Google Colab中获得GPU访问权限
 
-To get access to a CUDA-enabled NVIDIA GPU (CUDA is the programming interface that allows deep learning code to run faster on GPUs) in Google Colab you can go to `Runtime -> Change runtime type -> Hardware Accelerator -> GPU` (note: this will require the runtime to restart).
+要在Google Colab中访问支持CUDA的NVIDIA GPU（CUDA是允许深度学习代码在GPU上运行更快的编程接口），你可以转到`Runtime -> Change runtime type -> Hardware Accelerator -> GPU`（注意：这将需要重启运行时）。
 
 ![Getting access to a GPU in Google Colab](https://raw.githubusercontent.com/mrdbourke/pytorch-deep-learning/main/images/setup-get-gpu-colab-cropped.gif)
 
-To check whether you have a GPU active in Google Colab you can run:
+要检查你是否在Google Colab中有GPU可用，可以运行：
 
 ```
 !nvidia-smi
 ```
 
-If you have access to a GPU, this will show you what kind of GPU you have access to.
+如果你有GPU访问权限，这将显示你可以访问的GPU类型。
 
-And to see if PyTorch has access to the GPU, you can run:
+要查看PyTorch是否可以访问GPU，可以运行：
 
 ```python
-import torch # Google Colab comes with torch already installed
-print(torch.cuda.is_available()) # will return True if PyTorch can use the GPU
+import torch # Google Colab已经预装了torch
+print(torch.cuda.is_available()) # 如果PyTorch可以使用GPU将返回True
 ```
 
-If PyTorch can see the GPU on Google Colab, the above will print `True`.
+如果PyTorch可以在Google Colab上看到GPU，上面的代码将打印`True`。
 
-## TK - 2. Getting setup locally (Linux version)
+## TK - 2. 本地设置（Linux版本）
 
-> **Note:** A reminder this is not a replacement for the [PyTorch documentation for getting setup locally](https://pytorch.org/get-started/locally/). This is only one way of getting setup (there are many) and designed specifically for this course.
+> **注意：** 再次提醒，这不能替代[PyTorch官方本地设置文档](https://pytorch.org/get-started/locally/)。这只是一种设置方式（有很多种），专门为本课程设计。
 
-This **setup is focused on Linux systems** (the most common operating system in the world), if you are running Windows or macOS, you should refer to the PyTorch documentation. 
+这个**设置专注于Linux系统**（世界上最常见的操作系统），如果你运行Windows或macOS，应该参考PyTorch文档。
 
-This setup also **expects you to have access to a NVIDIA GPU**.
+这个设置还**期望你能够访问NVIDIA GPU**。
 
 Why this setup?
 

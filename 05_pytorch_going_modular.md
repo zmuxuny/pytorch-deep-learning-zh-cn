@@ -48,26 +48,26 @@ Notebook非常适合迭代探索和快速运行实验。
 
 |                    | **Pros**                                                                            | **Cons**                                                                                  |
 | ------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **Python scripts** | Can package code together (saves rewriting similar code across different notebooks) | Experimenting isn't as visual (usually have to run the whole script rather than one cell) |
-|                    | Can use git for versioning                                                          |                                                                                           |
-|                    | Many open source projects use scripts                                               |                                                                                           |
-|                    | Larger projects can be run on cloud vendors (not as much support for notebooks)     |                                                                                           |
+| **Python脚本** | 可以将代码打包在一起（避免在不同notebook中重写相似代码） | 实验不够直观（通常必须运行整个脚本而不是单个单元格） |
+|                    | 可以使用git进行版本控制                                                          |                                                                                           |
+|                    | 许多开源项目使用脚本                                               |                                                                                           |
+|                    | 大型项目可以在云厂商上运行（对notebook的支持较少）     |                                                                                           |
 
-### My workflow
+### 我的工作流程
 
-I usually start machine learning projects in Jupyter/Google Colab notebooks for quick experimentation and visualization.
+我通常在Jupyter/Google Colab notebook中开始机器学习项目，进行快速实验和可视化。
 
-Then when I've got something working, I move the most useful pieces of code to Python scripts.
+然后当我有一些有效的东西时，我会将最有用的代码片段转移到Python脚本中。
 
 <img src="https://raw.githubusercontent.com/mrdbourke/pytorch-deep-learning/main/images/05-my-workflow-for-experimenting.png" alt="one possible workflow for writing machine learning code, start with jupyter or google colab notebooks and then move to Python scripts when you've got something working." width=1000/>
 
-*There are many possible workflows for writing machine learning code. Some prefer to start with scripts, others (like me) prefer to start with notebooks and go to scripts later on.*
+*编写机器学习代码有很多可能的工作流程。一些人更喜欢从脚本开始，其他人（像我一样）更喜欢从notebook开始，然后再转到脚本。*
 
-### PyTorch in the wild
+### 现实中的PyTorch
 
-In your travels, you'll see many code repositories for PyTorch-based ML projects have instructions on how to run the PyTorch code in the form of Python scripts.
+在你的学习过程中，你会看到许多基于PyTorch的机器学习项目代码仓库都有关于如何以Python脚本形式运行PyTorch代码的说明。
 
-For example, you might be instructed to run code like the following in a terminal/command line to train a model:
+例如，你可能会被指示在终端/命令行中运行如下代码来训练模型：
 
 ```
 python train.py --model MODEL_NAME --batch_size BATCH_SIZE --lr LEARNING_RATE --num_epochs NUM_EPOCHS

@@ -105,42 +105,45 @@
 
 我们从PyTorch和机器学习的基础知识开始，所以即使你是机器学习新手，也会跟上进度。
 
-Then we’ll explore more advanced areas including PyTorch neural network classification, PyTorch workflows, computer vision, custom datasets, experiment tracking, model deployment, and my personal favourite: transfer learning, a powerful technique for taking what one machine learning model has learned on another problem and applying it to your own!
+然后我们将探索更高级的领域，包括PyTorch神经网络分类、PyTorch工作流程、计算机视觉、自定义数据集、实验跟踪、模型部署，以及我个人最喜欢的：迁移学习，这是一种强大的技术，可以将一个机器学习模型在另一个问题上学到的知识应用到你自己的问题上！
 
-Along the way, you’ll build three milestone projects surrounding an overarching project called FoodVision, a neural network computer vision model to classify images of food. 
+在学习过程中，你将围绕一个名为FoodVision的总体项目构建三个里程碑项目，这是一个用于分类食物图像的神经网络计算机视觉模型。
 
-These milestone projects will help you practice using PyTorch to cover important machine learning concepts and create a portfolio you can show employers and say "here's what I've done".
+这些里程碑项目将帮助你练习使用PyTorch来涵盖重要的机器学习概念，并创建一个可以向雇主展示的作品集，告诉他们"这就是我做过的事情"。
 
-### How do I get started?
+### 如何开始？
 
-You can read the materials on any device but this course is best viewed and coded along within a desktop browser.
+你可以在任何设备上阅读材料，但这门课程最好在桌面浏览器中查看和编写代码。
 
-The course uses a free tool called Google Colab. If you've got no experience with it, I'd go through the free [Introduction to Google Colab tutorial](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) and then come back here.
+本课程使用一个名为Google Colab的免费工具。如果你没有使用经验，我建议先阅读免费的[Google Colab介绍教程](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)，然后再回到这里。
 
-To start:
+开始步骤：
 
-1. Click on one of the notebook or section links above like "[00. PyTorch Fundamentals](https://www.learnpytorch.io/00_pytorch_fundamentals/)". 
-2. Click the "Open in Colab" button up the top.
-3. Press SHIFT+Enter a few times and see what happens.
+1. 点击上面的notebook或章节链接，如"[00. PyTorch基础](https://www.learnpytorch.io/00_pytorch_fundamentals/)"。
+2. 点击顶部的"Open in Colab"按钮。
+3. 按几次SHIFT+Enter，看看会发生什么。
 
-### My question isn't answered 
+### 我的问题没有得到解答
 
-Please leave a [discussion](https://github.com/mrdbourke/pytorch-deep-learning/discussions) or send me an email directly: daniel (at) mrdbourke (dot) com.
+请留下[讨论](https://github.com/mrdbourke/pytorch-deep-learning/discussions)或直接发邮件给我：daniel (at) mrdbourke (dot) com。
 
-## Log
+## 日志
 
-Almost daily updates of what's happening.
+项目进展的几乎每日更新。
 
-* 15 May 2023 - PyTorch 2.0 tutorial finished + videos added to ZTM/Udemy, see code: https://www.learnpytorch.io/pytorch_2_intro/
-* 13 Apr 2023 - update PyTorch 2.0 notebook
-* 30 Mar 2023 - update PyTorch 2.0 notebook with more info/clean code
-* 23 Mar 2023 - upgrade PyTorch 2.0 tutorial with annotations and images
-* 13 Mar 2023 - add starter code for PyTorch 2.0 tutorial 
-* 18 Nov 2022 - add a reference for 3 most common errors in PyTorch + links to course sections for more: https://www.learnpytorch.io/pytorch_most_common_errors/ 
-* 9 Nov 2022 - add PyTorch cheatsheet for a very quick overview of the main features of PyTorch + links to course sections: https://www.learnpytorch.io/pytorch_cheatsheet/ 
-* 9 Nov 2022 - full course materials (300+ videos) are now live on Udemy! You can sign up here: https://www.udemy.com/course/pytorch-for-deep-learning/?couponCode=ZTMGOODIES7 (launch deal code valid for 3-4 days from this line)
-* 4 Nov 2022 - add a notebook for PyTorch Cheatsheet in `extras/` (a simple overview of many of the most important functionality of PyTorch)
-* 2 Oct 2022 - all videos for section 08 and 09 published (100+ videos for the last two sections)!
+* 2023年5月15日 - PyTorch 2.0教程完成 + 视频添加到ZTM/Udemy，查看代码：https://www.learnpytorch.io/pytorch_2_intro/
+* 2023年4月13日 - 更新PyTorch 2.0 notebook
+* 2023年3月30日 - 更新PyTorch 2.0 notebook，添加更多信息和清理代码
+* 2023年3月23日 - 升级PyTorch 2.0教程，添加注释和图片
+* 2023年3月13日 - 为PyTorch 2.0教程添加起始代码
+* 2022年11月18日 - 添加PyTorch中3个最常见错误的参考 + 指向课程章节的链接：https://www.learnpytorch.io/pytorch_most_common_errors/
+* 2022年11月9日 - 添加PyTorch速查表，快速概览PyTorch主要功能 + 指向课程章节的链接：https://www.learnpytorch.io/pytorch_cheatsheet/
+* 2022年11月9日 - 完整课程材料（300+视频）现已在Udemy上线！可在此注册：https://www.udemy.com/course/pytorch-for-deep-learning/?couponCode=ZTMGOODIES7（发布优惠码有效期3-4天）
+* 2022年11月4日 - 在`extras/`中添加PyTorch速查表notebook（PyTorch最重要功能的简单概览）
+* 2022年10月2日 - 第08和09章节的所有视频发布（最后两个章节100+视频）！
+
+> **注意：** 详细的项目开发日志包含大量技术更新条目，为简洁起见，以下保持英文原文。主要记录了从2021年10月项目启动到2022年完成所有章节的详细开发过程。
+
 * 30 Aug 2022 - recorded 15 videos for 09, total videos: 321, finished section 09 videos!!!! ... even bigger than 08!!
 * 29 Aug 2022 - recorded 16 videos for 09, total videos: 306
 * 28 Aug 2022 - recorded 11 videos for 09, total videos: 290
